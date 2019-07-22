@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>User Login</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="validation.js" /></script>
+		<link rel="stylesheet" href="style.css">
+		<style>
+			
+		</style>
+	</head>
+	<body class="content">
+		<div class="loginbox">
+			
+			<div class="selectDiv" data-validate="Enter username">
+				<select class="inputSelect" id="loginType">
+					<option value="" selected>Login Type</option>
+					<option value="0">Basic</option>
+					<option value="1">Premium</option>
+				</select>
+				<span class="valid-error">Select login type</span>
+			</div>
+			<div class="login-div">
+				<button class="loginBtn" id="login">Login</button>
+			</div>
+		</div>
+	</body>
+</html>
